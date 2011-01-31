@@ -1,0 +1,3 @@
+#!/bin/sh
+# objfw-compile -o nicotine *.m
+gcc -o nicotine `objfw-config --all` -levent  *.m
